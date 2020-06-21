@@ -1,0 +1,36 @@
+<template>
+	<lightning-input type="search" onchange={handleKeyChange} label="Search" value={searchKey}></lightning-input>
+	<lightning-button variant="brand" label="Sumbit" title="Sumbit" onclick={handleSubmit}
+		class="slds-var-m-left_x-small">
+	</lightning-button>
+	<template if:true={object_keyValues_Flat}>
+		<template for:each={object_keyValues_Flat} for:item="objectWrapper">
+			<table key={objectWrapper.objectName} class="slds-table slds-table_cell-buffer slds-table_bordered">
+				<thead>
+					<th scope="col">Field Name</th>
+					<template for:each={objectWrapper.header} for:index="headerIndex" for:item="header">
+						<th key={header} scope="col">
+							{header}
+						</th>
+					</template>
+				</thead>
+
+				<tbody>
+
+					<template for:each={objectWrapper.data} for:index="keyIndex" for:item="rowData">
+						<tr class="slds-line-height_reset" key={rowData.key}>
+							<td>
+								{rowData.key}
+							</td>
+							<template for:each={rowData.values} for:index="valueIndex" for:item="columnData">
+								<td key={columnData.columnCounter}>
+									{columnData.value}
+								</td>
+							</template>
+						</tr>
+					</template>
+				</tbody>
+			</table>
+		</template>
+	</template>
+</template>
