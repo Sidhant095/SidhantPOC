@@ -1,0 +1,134 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "asd",
+            "RecordType": {
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v48.0/sobjects/RecordType/012N0000001Z997IAC"
+                },
+                "DeveloperName": "PersonAccount"
+            },
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "LastName": "asd"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Global Media",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef2"
+                        },
+                        "FirstName": "Carole",
+                        "LastName": "White"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef3"
+                        },
+                        "FirstName": "Geoff",
+                        "LastName": "Minor"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef4"
+                        },
+                        "FirstName": "Jon",
+                        "LastName": "Amos"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Acme",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef5"
+                        },
+                        "FirstName": "Leanne",
+                        "LastName": "Tomlin"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef6"
+                        },
+                        "FirstName": "Howard",
+                        "LastName": "Jones"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef7"
+                        },
+                        "FirstName": "Edward",
+                        "LastName": "Stamos"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef8"
+                        },
+                        "FirstName": "Mark",
+                        "LastName": "Land"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef9"
+                        },
+                        "FirstName": "John",
+                        "LastName": "Smith"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "salesforce.com",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef10"
+                        },
+                        "FirstName": "Marc",
+                        "LastName": "Benioff"
+                    }
+                ]
+            }
+        }
+    ]
+}

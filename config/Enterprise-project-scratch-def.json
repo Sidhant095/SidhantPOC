@@ -1,7 +1,7 @@
 {
-  "orgName": "Enterprise",
+  "orgName": "Enterprise-Person Account",
   "edition": "Enterprise",
-  "features": [],
+  "features": ["PersonAccounts","Communities"],
   "adminEmail":"sidhant.gupta095@gmail.com",
   "hasSampleData": true,
   "settings": {

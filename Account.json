@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "asd",
+            "RecordType": {
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v48.0/sobjects/RecordType/012N0000001Z997IAC"
+                },
+                "DeveloperName": "PersonAccount",
+                "Name": "Person Account"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Global Media"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Acme"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "salesforce.com"
+        }
+    ]
+}

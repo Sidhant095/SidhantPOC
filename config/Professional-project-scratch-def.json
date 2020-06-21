@@ -2,5 +2,18 @@
   "orgName": "Professional",
   "edition": "Professional",
   "adminEmail":"sidhant.gupta095@gmail.com",
-  "hasSampleData": true
+  "hasSampleData": true,
+  "settings": {
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+        "passwordPolicies": {
+            "enableSetPasswordInApi": true
+        }
+    },
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+    }
+  }
 }
