@@ -22,6 +22,7 @@
     <label>LWC</label>
     <navType>Standard</navType>
     <tabs>Hello</tabs>
+    <tabs>Record_Compare</tabs>
     <tabs>Apex</tabs>
     <tabs>Data_Service</tabs>
     <tabs>standard-Contact</tabs>

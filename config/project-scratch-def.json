@@ -1,20 +1,66 @@
 {
   "orgName": "Developer",
   "edition": "Developer",
-  "features": [],
-  "adminEmail":"sidhant.gupta095@gmail.com",
+  "features": [
+    "AddCustomTabs:30",
+    "AddCustomObjects:30",
+    "AnalyticsAdminPerms",
+    "API",
+    "BigObjectsBulkAPI",
+    "Communities",
+    "ChangeDataCapture",
+    "Chatbot",
+    "CPQ",
+    "DebugApex",
+    "DevelopmentWave",
+    "EinsteinAnalyticsPlus",
+    "EinsteinBuilderFree",
+    "EventLogFile",
+    "FieldAuditTrail",
+    "FieldService",
+    "FinancialServicesUser:2",
+    "FinancialServicesCommunityUser:2",
+    "ForceComPlatform",
+    "FlowSites",
+    "HealthCloudUser",
+    "Knowledge",
+    "LiveAgent",
+    "MarketingUser",
+    "LiveMessage",
+    "LightningServiceConsole",
+    "LightningSalesConsole",
+    "MaxStreamingTopics:100",
+    "MobileSecurity",
+    "PersonAccounts",
+    "PlatformCache",
+    "PlatformConnect",
+    "PlatformEncryption",
+    "SalesUser",
+    "ServiceCloud",
+    "ServiceUser",
+    "Sites",
+    "StreamingAPI",
+    "WavePlatform"
+  ],
+  "adminEmail": "sidhant.gupta095@gmail.com",
   "hasSampleData": true,
   "settings": {
     "lightningExperienceSettings": {
-        "enableS1DesktopEnabled": true
+      "enableS1DesktopEnabled": true
     },
     "securitySettings": {
-        "passwordPolicies": {
-            "enableSetPasswordInApi": true
-        }
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
     },
     "mobileSettings": {
-        "enableS1EncryptedStoragePref2": false
+      "enableS1EncryptedStoragePref2": false
+    },
+    "orderSettings": {
+      "enableOrders": false
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent": true
     }
   }
 }
